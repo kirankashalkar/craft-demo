@@ -1,0 +1,22 @@
+.editable {
+	border: 1px solid black;
+	border-radius: 5px;
+    -moz-appearance: textfield-multiline;
+    -webkit-appearance: textarea;
+    font: medium -moz-fixed;
+    font: -webkit-small-control;
+    overflow: auto;
+    padding: 2px;
+    resize: both;
+    height: 400px;
+    width: 240px;
+    min-width: 240px;
+
+    .allowed {
+
+    }
+
+    .disallowed {
+    	color: red;
+    }
+}
