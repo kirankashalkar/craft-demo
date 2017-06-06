@@ -164,7 +164,7 @@ class FieldBuilderStore {
 			field: this.state.field,
 			displayErrors: true,
 			errorMessages: [
-				'Something went wrong when saving the field' + error
+				'Something went wrong when saving the field. Error: ' + error
 			]
 		})
 	}
